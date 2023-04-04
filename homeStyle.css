@@ -3,12 +3,12 @@ body {
     flex-wrap: wrap;
     background-color: white;
   }
-  .left {
+  .col-lg-8 {
     flex: 2;
     background-color: #1d1d1c;;
   }
-  .right {
-    flex: 1;
+  .col-lg-4 {
+    
     background-color: #1d1d1c;;
     height: 100vh;
   }
@@ -44,11 +44,11 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 66.8%;
+    width: 100%;
     background-color: #1d1d1c;;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 6px;
 }
 .explore-button {
     background-color: black;
