@@ -8,31 +8,35 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <!--CSS-->
-        <link href="style.css" rel="stylesheet">
+        <link href="homeStyle.css" rel="stylesheet">
         <!--Font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-       
+     
         <div class="left">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">GuildArts</a>
+                  <a class="navbar-brand" href="#">
+                    <img src="Logo.png" alt="Logo" width="55" height="55">
+                  </a>
+                  <a class="navbar-brand" href="#" style = "color: #D4D4D4;">GuildArts</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html" style = "color: #A65A28;">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#" style = "color: #D4D4D4;">About</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Link
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style = "color: #D4D4D4;">
+                          Features
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">Action</a></li>
@@ -43,19 +47,19 @@
                       </li>
                     </ul>
                     
-                        <a class="nav-link active" aria-current="page" href="#">Login &nbsp </a>
-                      <button class="btn btn-outline-success" type="submit">Sign Up</button>
+                        <a class="nav-link" aria-current="page" href="#" style ="color:#D4D4D4">Login &nbsp </a>
+                      <button class="btn orange-btn" type="submit">Sign Up</button>
                     
                   </div>
                 </div>
               </nav>
               <div class="center">
-                <h1 class="left-align">GuildArts</h1>
+                <h1 class="left-align" style ="color:#A65A28;" >GuildArts</h1>
 
                 
                 <div class ="content">
-                <h2 class ="subheading">an online art community</h2>
-                <p style="margin-left: -205px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quidem, ipsa sequi voluptas doloribus at ratione autem a quod dolore praesentium temporibus animi porro velit iure, reprehenderit impedit fugit blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus expedita molestiae iusto modi culpa, excepturi cupiditate incidunt? Libero, nesciunt nulla? Perferendis reprehenderit, dicta amet ipsum enim maxime ullam est consectetur!</p>
+                <h2 class ="subheading" style ="color:#A65A28;">an online art community</h2>
+                <p style="margin-left: -205px; color:#D4D4D4;text-align: justify; padding-right: 50px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quidem, ipsa sequi voluptas doloribus at ratione autem a quod dolore praesentium temporibus animi porro velit iure, reprehenderit impedit fugit blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus expedita molestiae iusto modi culpa, excepturi cupiditate incidunt? Libero, nesciunt nulla? Perferendis reprehenderit, dicta amet ipsum enim maxime ullam est consectetur!</p>
                 <button class="explore-button">Explore <i class="fas fa-arrow-right"></i></button>
             </div>
 
@@ -90,11 +94,12 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+              <footer>
+                <p>This is the footer</p>
+             </footer>
           </div>
        
-          <footer>
-            <p>This is the footer</p>
-         </footer>
+         
         
         
     </body>

@@ -1,15 +1,16 @@
 body {
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
   }
   .left {
     flex: 2;
-    background-color: #ccc;
+    background-color: #1d1d1c;;
   }
   .right {
     flex: 1;
-    background-color: #eee;
-    overflow: hidden;
+    background-color: #1d1d1c;;
+    height: 100vh;
   }
   .subheading
   {
@@ -24,8 +25,10 @@ body {
 
   }
   .left-align {
+    position: relative;
+    left: 50px;
     font-size: 50px;
-    margin-right: auto;
+    margin-right: 50px;
     padding-bottom: 60px;
   }
   .subheading
@@ -35,14 +38,14 @@ body {
   }
  
   .content {
-    margin-top: 200px; /* adjust as needed */
+    margin-top: 200px; 
   }
   footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: #333;
+    width: 66.8%;
+    background-color: #1d1d1c;;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -65,7 +68,17 @@ body {
   .explore-button i {
     margin-left: 5px;
   }
-  
+
+  .navbar {
+    background-color: #1d1d1c;;
+  }
+
+  .orange-btn {
+    color: #D4D4D4;
+    background-color: #A65A28;
+  }
+
+ 
 
   
   
